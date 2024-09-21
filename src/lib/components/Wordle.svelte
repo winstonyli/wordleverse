@@ -290,7 +290,7 @@
 			</p>
 		{/key}
 
-		<div class="absolute left-0 right-0">
+		<div class="absolute left-0 right-0 grid place-items-center">
 			{#if hasWon}
 				<Confetti x={[-2, 2]} y={[-1, 1]} />
 			{/if}
