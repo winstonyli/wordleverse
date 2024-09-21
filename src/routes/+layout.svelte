@@ -12,6 +12,7 @@
 
 <div class="flex min-h-screen w-screen justify-center backdrop-blur">
 	<div class="items-center overflow-x-hidden bg-base-100">
+		<!-- Navbar -->
 		<nav class="navbar sticky top-0 z-20 bg-base-100 bg-opacity-80 px-6 backdrop-blur">
 			<div class="navbar-start">
 				<NavButton title="Bloondle" href="{base}/bloondle">
