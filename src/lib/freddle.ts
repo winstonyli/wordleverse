@@ -55,7 +55,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['White', 'Red'],
 		eyeColor: 'Green',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Aeronaut Toy Freddy': {
 		src: `${base}/freddle/icons/aeronaut-toy-freddy.webp`,
@@ -63,7 +63,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Brown',
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Arctic Ballora': {
 		src: `${base}/freddle/icons/arctic-ballora.webp`,
@@ -71,7 +71,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: 'Blue',
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Balloon Boy': {
 		src: `${base}/freddle/icons/bb.webp`,
@@ -80,7 +80,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Peach', 'Blue', 'Red'],
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF2',
+		debut: 'FNaF2',
 	},
 	Ballora: {
 		src: `${base}/freddle/icons/ballora.webp`,
@@ -88,7 +88,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['White', 'Blue'],
 		eyeColor: ['Pink', 'Purple'],
-		firstAppearance: 'FNaF: SL',
+		debut: 'FNaF: SL',
 	},
 	Bidybab: {
 		src: `${base}/freddle/icons/bidybab.webp`,
@@ -96,7 +96,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: 'Peach',
 		eyeColor: ['Purple', 'Green'],
-		firstAppearance: 'FNaF: SL',
+		debut: 'FNaF: SL',
 	},
 	'Big Bad Foxy': {
 		src: `${base}/freddle/icons/big-bad-foxy.webp`,
@@ -104,7 +104,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: ['Red', 'Black'],
 		eyeColor: ['Black', 'Red'],
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Black Heart Bonnie': {
 		src: `${base}/freddle/icons/black-heart-bonnie.webp`,
@@ -112,7 +112,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: ['Black', 'Red'],
 		eyeColor: 'Red',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Black Ice Freddy Frostbear': {
 		src: `${base}/freddle/icons/black-ice-freddy-frostbear.webp`,
@@ -120,7 +120,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Blue',
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Bon-Bon': {
 		src: `${base}/freddle/icons/bon-bon.webp`,
@@ -128,7 +128,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Blue',
 		eyeColor: 'Purple',
-		firstAppearance: 'FNaF: SL',
+		debut: 'FNaF: SL',
 	},
 	Bonnet: {
 		src: `${base}/freddle/icons/bonnet.webp`,
@@ -136,7 +136,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Pink',
 		eyeColor: 'Green',
-		firstAppearance: 'FNaF: SL',
+		debut: 'FNaF: SL',
 	},
 	Bonnie: {
 		src: `${base}/freddle/icons/bonnie.webp`,
@@ -144,7 +144,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Purple',
 		eyeColor: 'Purple',
-		firstAppearance: 'FNaF1',
+		debut: 'FNaF1',
 	},
 	'Boulder Toy Bonnie': {
 		src: `${base}/freddle/icons/boulder-toy-bonnie.webp`,
@@ -152,7 +152,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: ['Gray', 'Green'],
 		eyeColor: 'N/A',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Broiler Baby': {
 		src: `${base}/freddle/icons/broiler-baby.webp`,
@@ -160,7 +160,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Gray', 'Brown'],
 		eyeColor: 'Red',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Bucket Bob': {
 		src: `${base}/freddle/icons/bucket-bob.webp`,
@@ -169,7 +169,7 @@ export const answers = {
 		model: 'Bucket',
 		mainColors: ['Gray', 'Brown'],
 		eyeColor: 'Black',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Burnt Foxy': {
 		src: `${base}/freddle/icons/burnt-foxy.webp`,
@@ -177,7 +177,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: 'Brown',
 		eyeColor: 'Orange',
-		firstAppearance: 'FNaF: HW',
+		debut: 'FNaF: HW',
 	},
 	Burntrap: {
 		src: `${base}/freddle/icons/burntrap.webp`,
@@ -185,7 +185,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: ['Green', 'Gray'],
 		eyeColor: 'Purple',
-		firstAppearance: 'FNaF: SB',
+		debut: 'FNaF: SB',
 	},
 	'Candy Cadet': {
 		src: `${base}/freddle/icons/candy-cadet.webp`,
@@ -193,7 +193,7 @@ export const answers = {
 		model: 'Other',
 		mainColors: 'Gray',
 		eyeColor: 'N/A',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Captain Foxy': {
 		src: `${base}/freddle/icons/captain-foxy.webp`,
@@ -201,7 +201,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: ['Red', 'Blue'],
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF: HW (CoD)',
+		debut: 'FNaF: HW (CoD)',
 	},
 	'Catrina Toy Chica': {
 		src: `${base}/freddle/icons/catrina-toy-chica.webp`,
@@ -209,7 +209,7 @@ export const answers = {
 		model: 'Chicken',
 		mainColors: ['White', 'Red', 'Purple'],
 		eyeColor: 'Red',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Caution Bot': {
 		src: `${base}/freddle/icons/caution-bot.webp`,
@@ -218,7 +218,7 @@ export const answers = {
 		model: 'Wet Floor Sign',
 		mainColors: 'Yellow',
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF: SB',
+		debut: 'FNaF: SB',
 	},
 	'Charlotte Emily': {
 		src: `${base}/freddle/icons/charlie.webp`,
@@ -227,7 +227,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: 'Peach',
 		eyeColor: 'Brown',
-		firstAppearance: 'TSE',
+		debut: 'TSE',
 	},
 	Chica: {
 		src: `${base}/freddle/icons/chica.webp`,
@@ -235,7 +235,7 @@ export const answers = {
 		model: 'Chicken',
 		mainColors: 'Yellow',
 		eyeColor: 'Purple',
-		firstAppearance: 'FNaF1',
+		debut: 'FNaF1',
 	},
 	'Chocolate Bonnie': {
 		src: `${base}/freddle/icons/chocolate-bonnie.webp`,
@@ -243,7 +243,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Brown',
 		eyeColor: 'Orange',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Circus Baby': {
 		src: `${base}/freddle/icons/circus-baby.webp`,
@@ -251,7 +251,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['White', 'Red'],
 		eyeColor: ['Blue', 'Green'],
-		firstAppearance: 'FW',
+		debut: 'FW',
 	},
 	'Clockwork Ballora': {
 		src: `${base}/freddle/icons/clockwork-ballora.webp`,
@@ -259,7 +259,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: 'Yellow',
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Clockwork Minireena': {
 		src: `${base}/freddle/icons/clockwork-minireena.webp`,
@@ -267,7 +267,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Brown', 'White'],
 		eyeColor: 'Green',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Clown Springtrap': {
 		src: `${base}/freddle/icons/clown-springtrap.webp`,
@@ -275,7 +275,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: ['White', 'Red'],
 		eyeColor: ['Blue', 'Pink'],
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Coils the Birthday Clown': {
 		src: `${base}/freddle/icons/coils.webp`,
@@ -284,7 +284,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['White', 'Red', 'Green', 'Yellow'],
 		eyeColor: 'Green',
-		firstAppearance: 'FF9',
+		debut: 'FF9',
 	},
 	'Dark Foxy': {
 		src: `${base}/freddle/icons/dark-foxy.webp`,
@@ -292,7 +292,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: 'Gray',
 		eyeColor: 'White',
-		firstAppearance: 'FNaF: HW',
+		debut: 'FNaF: HW',
 	},
 	'Dark Freddy': {
 		src: `${base}/freddle/icons/dark-freddy.webp`,
@@ -300,7 +300,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Black',
 		eyeColor: 'White',
-		firstAppearance: 'FNaF: HW',
+		debut: 'FNaF: HW',
 	},
 	'Dark Water Endo': {
 		src: `${base}/freddle/icons/dark-water-endo.webp`,
@@ -308,7 +308,7 @@ export const answers = {
 		model: 'Endoskeleton',
 		mainColors: ['Blue', 'White'],
 		eyeColor: 'White',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Dee Dee': {
 		src: `${base}/freddle/icons/dee-dee.webp`,
@@ -317,7 +317,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Peach', 'Pink', 'Orange'],
 		eyeColor: 'Green',
-		firstAppearance: 'UCN',
+		debut: 'UCN',
 	},
 	'DJ Music Man': {
 		src: `${base}/freddle/icons/dj-music-man.webp`,
@@ -325,7 +325,7 @@ export const answers = {
 		model: 'Other',
 		mainColors: 'White',
 		eyeColor: 'Black',
-		firstAppearance: 'FNaF: SB',
+		debut: 'FNaF: SB',
 	},
 	Dreadbear: {
 		src: `${base}/freddle/icons/dreadbear.webp`,
@@ -333,7 +333,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Gray',
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF: HW (CoD)',
+		debut: 'FNaF: HW (CoD)',
 	},
 	'Easter Bonnie': {
 		src: `${base}/freddle/icons/easter-bonnie.webp`,
@@ -341,7 +341,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'White',
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	Eclipse: {
 		src: `${base}/freddle/icons/eclipse.webp`,
@@ -350,7 +350,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Gray', 'Yellow', 'Blue'],
 		eyeColor: ['Yellow', 'Red'],
-		firstAppearance: 'FNaF: SB',
+		debut: 'FNaF: SB',
 	},
 	'Egg Baby': {
 		src: `${base}/freddle/icons/egg-baby.webp`,
@@ -358,7 +358,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Peach', 'Blue'],
 		eyeColor: 'Black',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'El Chip': {
 		src: `${base}/freddle/icons/el-chip.webp`,
@@ -366,7 +366,7 @@ export const answers = {
 		model: 'Beaver',
 		mainColors: 'Brown',
 		eyeColor: 'Green',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	Eleanor: {
 		src: `${base}/freddle/icons/eleanor.webp`,
@@ -374,7 +374,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['White', 'Red'],
 		eyeColor: 'Green',
-		firstAppearance: 'FF1',
+		debut: 'FF1',
 	},
 	Electrobab: {
 		src: `${base}/freddle/icons/electrobab.webp`,
@@ -382,7 +382,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: 'Peach',
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF: SL',
+		debut: 'FNaF: SL',
 	},
 	Ella: {
 		src: `${base}/freddle/icons/ella.webp`,
@@ -390,7 +390,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Peach', 'Blue', 'Pink'],
 		eyeColor: 'Blue',
-		firstAppearance: 'TSE',
+		debut: 'TSE',
 	},
 	'Endo-01': {
 		src: `${base}/freddle/icons/endo-01.webp`,
@@ -399,7 +399,7 @@ export const answers = {
 		model: 'Endoskeleton',
 		mainColors: 'Gray',
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF1',
+		debut: 'FNaF1',
 	},
 	'Endo-02': {
 		src: `${base}/freddle/icons/endo-02.webp`,
@@ -407,7 +407,7 @@ export const answers = {
 		model: 'Endoskeleton',
 		mainColors: 'Gray',
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF2',
+		debut: 'FNaF2',
 	},
 	Ennard: {
 		src: `${base}/freddle/icons/ennard.webp`,
@@ -415,7 +415,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Gray', 'White'],
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF: SL',
+		debut: 'FNaF: SL',
 	},
 	Fetch: {
 		src: `${base}/freddle/icons/fetch.webp`,
@@ -423,7 +423,7 @@ export const answers = {
 		model: 'Canine',
 		mainColors: 'Gray',
 		eyeColor: 'Orange',
-		firstAppearance: 'FF2',
+		debut: 'FF2',
 	},
 	'Firework Freddy': {
 		src: `${base}/freddle/icons/firework-freddy.webp`,
@@ -431,7 +431,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: ['Brown', 'Blue', 'Red'],
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Flamethrower Endo': {
 		src: `${base}/freddle/icons/flamethrower-endo.webp`,
@@ -439,7 +439,7 @@ export const answers = {
 		model: 'Endoskeleton',
 		mainColors: ['Yellow', 'Brown'],
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Flaming Springtrap': {
 		src: `${base}/freddle/icons/flaming-springtrap.webp`,
@@ -447,7 +447,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: ['Black', 'Orange'],
 		eyeColor: 'Red',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	Foxy: {
 		src: `${base}/freddle/icons/foxy.webp`,
@@ -455,7 +455,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: 'Red',
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF1',
+		debut: 'FNaF1',
 	},
 	Fredbear: {
 		src: `${base}/freddle/icons/fredbear.webp`,
@@ -463,7 +463,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Yellow',
 		eyeColor: ['Black', 'White'],
-		firstAppearance: 'FNaF3',
+		debut: 'FNaF3',
 	},
 	Freddles: {
 		src: `${base}/freddle/icons/freddles.webp`,
@@ -471,7 +471,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Brown',
 		eyeColor: ['Black', 'White'],
-		firstAppearance: 'FNaF4',
+		debut: 'FNaF4',
 	},
 	'Freddy Fazbear': {
 		src: `${base}/freddle/icons/freddy.webp`,
@@ -480,7 +480,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Brown',
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF1',
+		debut: 'FNaF1',
 	},
 	'Frost Plushtrap': {
 		src: `${base}/freddle/icons/frost-plushtrap.webp`,
@@ -488,7 +488,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Blue',
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Frostbite Balloon Boy': {
 		src: `${base}/freddle/icons/frostbite-bb.webp`,
@@ -497,7 +497,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['White', 'Blue'],
 		eyeColor: 'N/A',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Fruit Punch Clown': {
 		src: `${base}/freddle/icons/fruit-punch-clown.webp`,
@@ -505,7 +505,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['White', 'Red', 'Purple'],
 		eyeColor: 'Green',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Funtime Chica': {
 		src: `${base}/freddle/icons/funtime-chica.webp`,
@@ -513,7 +513,7 @@ export const answers = {
 		model: 'Chicken',
 		mainColors: ['White', 'Pink'],
 		eyeColor: 'Pink',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Funtime Foxy': {
 		src: `${base}/freddle/icons/funtime-foxy.webp`,
@@ -521,7 +521,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: ['White', 'Pink'],
 		eyeColor: 'Yellow',
-		firstAppearance: 'FW',
+		debut: 'FW',
 	},
 	'Funtime Freddy': {
 		src: `${base}/freddle/icons/funtime-freddy.webp`,
@@ -529,7 +529,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: ['White', 'Purple'],
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF: SL',
+		debut: 'FNaF: SL',
 	},
 	'Glamrock Bonnie': {
 		src: `${base}/freddle/icons/glamrock-bonnie.webp`,
@@ -537,7 +537,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: ['Blue', 'Red'],
 		eyeColor: 'Red',
-		firstAppearance: 'FNaF: SB (RUIN)',
+		debut: 'FNaF: SB (RUIN)',
 	},
 	'Glamrock Chica': {
 		src: `${base}/freddle/icons/glamrock-chica.webp`,
@@ -545,7 +545,7 @@ export const answers = {
 		model: 'Chicken',
 		mainColors: ['White', 'Purple', 'Green'],
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF: SB',
+		debut: 'FNaF: SB',
 	},
 	'Glamrock Endo': {
 		src: `${base}/freddle/icons/glamrock-endo.webp`,
@@ -553,7 +553,7 @@ export const answers = {
 		model: 'Endoskeleton',
 		mainColors: 'Gray',
 		eyeColor: 'Red',
-		firstAppearance: 'FNaF: SB',
+		debut: 'FNaF: SB',
 	},
 	'Glamrock Freddy': {
 		src: `${base}/freddle/icons/glamrock-freddy.webp`,
@@ -561,7 +561,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Orange',
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF: SB',
+		debut: 'FNaF: SB',
 	},
 	'Glamrock Mr. Hippo': {
 		src: `${base}/freddle/icons/glamrock-mr-hippo.webp`,
@@ -569,7 +569,7 @@ export const answers = {
 		model: 'Hippo',
 		mainColors: 'Purple',
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF: SB',
+		debut: 'FNaF: SB',
 	},
 	Glitchtrap: {
 		src: `${base}/freddle/icons/glitchtrap.webp`,
@@ -577,7 +577,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Brown',
 		eyeColor: 'Purple',
-		firstAppearance: 'FNaF: HW',
+		debut: 'FNaF: HW',
 	},
 	'Golden Freddy': {
 		src: `${base}/freddle/icons/golden-freddy.webp`,
@@ -585,7 +585,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Yellow',
 		eyeColor: 'N/A',
-		firstAppearance: 'FNaF1',
+		debut: 'FNaF1',
 	},
 	'Grimm Foxy': {
 		src: `${base}/freddle/icons/grimm-foxy.webp`,
@@ -593,7 +593,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: 'Orange',
 		eyeColor: 'Orange',
-		firstAppearance: 'FNaF: HW (CoD)',
+		debut: 'FNaF: HW (CoD)',
 	},
 	HandUnit: {
 		src: `${base}/freddle/icons/hand-unit.webp`,
@@ -601,7 +601,7 @@ export const answers = {
 		model: 'Other',
 		mainColors: 'Yellow',
 		eyeColor: 'Black',
-		firstAppearance: 'FNaF: SL',
+		debut: 'FNaF: SL',
 	},
 	'Happy Frog': {
 		src: `${base}/freddle/icons/happy-frog.webp`,
@@ -609,7 +609,7 @@ export const answers = {
 		model: 'Frog',
 		mainColors: ['Green', 'Yellow'],
 		eyeColor: 'Pink',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Heartsick Baby': {
 		src: `${base}/freddle/icons/heartsick-baby.webp`,
@@ -617,7 +617,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Purple', 'White'],
 		eyeColor: 'Red',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	Helpi: {
 		src: `${base}/freddle/icons/helpi.webp`,
@@ -625,7 +625,7 @@ export const answers = {
 		model: 'Bear',
 		mairColor: ['Purple', 'Blue'],
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF: SB (RUIN)',
+		debut: 'FNaF: SB (RUIN)',
 	},
 	Helpy: {
 		src: `${base}/freddle/icons/helpy.webp`,
@@ -633,7 +633,7 @@ export const answers = {
 		model: 'Bear',
 		mairColor: ['White', 'Purple'],
 		eyeColor: 'Blue',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Highscore Toy Chica': {
 		src: `${base}/freddle/icons/highscore-toy-chica.webp`,
@@ -641,7 +641,7 @@ export const answers = {
 		model: 'Chicken',
 		mainColors: ['Blue', 'Black'],
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Jack-O-Bonnie': {
 		src: `${base}/freddle/icons/jack-o-bonnie.webp`,
@@ -649,7 +649,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: ['Orange', 'Brown'],
 		eyeColor: 'N/A',
-		firstAppearance: 'FNaF4 (HE)',
+		debut: 'FNaF4 (HE)',
 	},
 	'Jack-O-Chica': {
 		src: `${base}/freddle/icons/jack-o-chica.webp`,
@@ -657,7 +657,7 @@ export const answers = {
 		model: 'Chicken',
 		mainColors: ['Orange', 'Brown'],
 		eyeColor: 'N/A',
-		firstAppearance: 'FNaF4 (HE)',
+		debut: 'FNaF4 (HE)',
 	},
 	'Jetpack Balloon Boy': {
 		src: `${base}/freddle/icons/jetpack-balloon-boy.webp`,
@@ -665,7 +665,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: 'Brown',
 		eyeColor: 'Orange',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	JJ: {
 		src: `${base}/freddle/icons/jj.webp`,
@@ -673,7 +673,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Peach', 'Blue', 'Purple'],
 		eyeColor: 'Pink',
-		firstAppearance: 'FNaF2',
+		debut: 'FNaF2',
 	},
 	Lefty: {
 		src: `${base}/freddle/icons/lefty.webp`,
@@ -681,7 +681,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Black',
 		eyeColor: ['Yellow', 'Black'],
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Lemonade Clown': {
 		src: `${base}/freddle/icons/lemonade-clown.webp`,
@@ -689,7 +689,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['White', 'Purple', 'Orange'],
 		eyeColor: 'Blue',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Liberty Chica': {
 		src: `${base}/freddle/icons/liberty-chica.webp`,
@@ -697,7 +697,7 @@ export const answers = {
 		model: 'Chicken',
 		mainColors: 'Blue',
 		eyeColor: 'Green',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Little Red Chica': {
 		src: `${base}/freddle/icons/little-red-chica.webp`,
@@ -705,7 +705,7 @@ export const answers = {
 		model: 'Chicken',
 		mainColors: ['Red', 'White'],
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	Lolbit: {
 		src: `${base}/freddle/icons/lolbit.webp`,
@@ -713,7 +713,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: ['White', 'Orange', 'Purple'],
 		eyeColor: 'White',
-		firstAppearance: 'FNaF: SL',
+		debut: 'FNaF: SL',
 	},
 	'Lonely Freddy': {
 		src: `${base}/freddle/icons/lonely-freddy.webp`,
@@ -721,7 +721,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Brown',
 		eyeColor: 'Blue',
-		firstAppearance: 'FF2',
+		debut: 'FF2',
 	},
 	'Lucky Boy': {
 		src: `${base}/freddle/icons/lucky-boy.webp`,
@@ -729,7 +729,7 @@ export const answers = {
 		model: 'Blue',
 		mainColors: ['Peach', 'Blue', 'Red'],
 		eyeColor: 'Blue',
-		firstAppearance: 'FF8',
+		debut: 'FF8',
 	},
 	'Magician Mangle': {
 		src: `${base}/freddle/icons/magician-mangle.webp`,
@@ -737,7 +737,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: 'White',
 		eyeColor: ['Blue', 'Yellow'],
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	Mangle: {
 		src: `${base}/freddle/icons/mangle.webp`,
@@ -745,7 +745,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: ['White', 'Pink'],
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF2',
+		debut: 'FNaF2',
 	},
 	'Mask Bot': {
 		src: `${base}/freddle/icons/mask-bot.webp`,
@@ -753,7 +753,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['White', 'Yellow'],
 		eyeColor: 'Black',
-		firstAppearance: 'FNaF: SB (RUIN)',
+		debut: 'FNaF: SB (RUIN)',
 	},
 	'Melted Chocolate Bonnie': {
 		src: `${base}/freddle/icons/melted-chocolate-bonnie.webp`,
@@ -761,7 +761,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Brown',
 		eyeColor: 'Orange',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Mini Music Man': {
 		src: `${base}/freddle/icons/mini-music-man.webp`,
@@ -769,7 +769,7 @@ export const answers = {
 		model: 'Other',
 		mainColors: ['White', 'Purple', 'Pink'],
 		eyeColor: 'Black',
-		firstAppearance: 'FNaF: SB',
+		debut: 'FNaF: SB',
 	},
 	Minireena: {
 		src: `${base}/freddle/icons/minireena.webp`,
@@ -777,7 +777,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Brown', 'White'],
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF: SL',
+		debut: 'FNaF: SL',
 	},
 	'Molten Freddy': {
 		src: `${base}/freddle/icons/molten-freddy.webp`,
@@ -785,7 +785,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: ['Gray', 'White', 'Brown'],
 		eyeColor: 'Orange',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Montgomery Gator': {
 		src: `${base}/freddle/icons/monty.webp`,
@@ -794,7 +794,7 @@ export const answers = {
 		model: 'Alligator',
 		mainColors: ['Green', 'Purple'],
 		eyeColor: 'Red',
-		firstAppearance: 'FNaF: SB',
+		debut: 'FNaF: SB',
 	},
 	Moon: {
 		src: `${base}/freddle/icons/moon.webp`,
@@ -803,7 +803,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Blue', 'White', 'Black'],
 		eyeColor: 'Red',
-		firstAppearance: 'FNaF: SB',
+		debut: 'FNaF: SB',
 	},
 	'Mr. Can-Do': {
 		src: `${base}/freddle/icons/mr-can-do.webp`,
@@ -812,7 +812,7 @@ export const answers = {
 		model: 'Other',
 		mainColors: ['Red', 'Gray'],
 		eyeColor: 'Black',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Mr. Hippo': {
 		src: `${base}/freddle/icons/mr-hippo.webp`,
@@ -820,7 +820,7 @@ export const answers = {
 		model: 'Hippo',
 		mainColors: 'Purple',
 		eyeColor: 'Blue',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Mr. Hugs': {
 		src: `${base}/freddle/icons/mr-hugs.webp`,
@@ -829,7 +829,7 @@ export const answers = {
 		model: 'Vacuum',
 		mainColors: ['Green', 'Brown'],
 		eyeColor: 'Black',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Music Man': {
 		src: `${base}/freddle/icons/music-man.webp`,
@@ -837,7 +837,7 @@ export const answers = {
 		model: 'Other',
 		mainColors: ['White', 'Purple', 'Pink'],
 		eyeColor: 'Black',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Mystic Hippo': {
 		src: `${base}/freddle/icons/mystic-hippo.webp`,
@@ -845,7 +845,7 @@ export const answers = {
 		model: 'Hippo',
 		mainColors: 'Purple',
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF: HW2',
+		debut: 'FNaF: HW2',
 	},
 	'Nedd Bear': {
 		src: `${base}/freddle/icons/nedd-bear.webp`,
@@ -853,7 +853,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Brown',
 		eyeColor: 'Green',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Neon Bonnie': {
 		src: `${base}/freddle/icons/neon-bonnie.webp`,
@@ -861,7 +861,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: ['Black', 'Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Purple'],
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF: HW',
+		debut: 'FNaF: HW',
 	},
 	'Neon Chica': {
 		src: `${base}/freddle/icons/neon-chica.webp`,
@@ -869,7 +869,7 @@ export const answers = {
 		model: 'Chicken',
 		mainColors: ['Black', 'Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Purple'],
 		eyeColor: 'Green',
-		firstAppearance: 'FNaF: HW',
+		debut: 'FNaF: HW',
 	},
 	Nightmare: {
 		src: `${base}/freddle/icons/nightmare.webp`,
@@ -877,7 +877,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Black',
 		eyeColor: 'Red',
-		firstAppearance: 'FNaF4',
+		debut: 'FNaF4',
 	},
 	'Nightmare Balloon Boy': {
 		src: `${base}/freddle/icons/nightmare-bb.webp`,
@@ -886,7 +886,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Peach', 'Red', 'Purple'],
 		eyeColor: 'Red',
-		firstAppearance: 'FNaF4 (HE)',
+		debut: 'FNaF4 (HE)',
 	},
 	'Nightmare Bonnie': {
 		src: `${base}/freddle/icons/nightmare-bonnie.webp`,
@@ -894,7 +894,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Blue',
 		eyeColor: ['Purple', 'Yellow'],
-		firstAppearance: 'FNaF4',
+		debut: 'FNaF4',
 	},
 	'Nightmare Chica': {
 		src: `${base}/freddle/icons/nightmare-chica.webp`,
@@ -902,7 +902,7 @@ export const answers = {
 		model: 'Chicken',
 		mainColors: 'Yellow',
 		eyeColor: ['Blue', 'Red'],
-		firstAppearance: 'FNaF4',
+		debut: 'FNaF4',
 	},
 	'Nightmare Endo': {
 		src: `${base}/freddle/icons/nightmare-endo.webp`,
@@ -910,7 +910,7 @@ export const answers = {
 		model: 'Endoskeleton',
 		mainColors: 'Gray',
 		eyeColor: 'Red',
-		firstAppearance: 'FNaF: HW',
+		debut: 'FNaF: HW',
 	},
 	'Nightmare Foxy': {
 		src: `${base}/freddle/icons/nightmare-foxy.webp`,
@@ -918,7 +918,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: 'Red',
 		eyeColor: 'Orange',
-		firstAppearance: 'FNaF4',
+		debut: 'FNaF4',
 	},
 	'Nightmare Fredbear': {
 		src: `${base}/freddle/icons/nightmare-fredbear.webp`,
@@ -926,7 +926,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Yellow',
 		eyeColor: 'Red',
-		firstAppearance: 'FNaF4',
+		debut: 'FNaF4',
 	},
 	'Nightmare Freddy': {
 		src: `${base}/freddle/icons/nightmare-freddy.webp`,
@@ -934,7 +934,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Brown',
 		eyeColor: 'Orange',
-		firstAppearance: 'FNaF4',
+		debut: 'FNaF4',
 	},
 	'Nightmare Mangle': {
 		src: `${base}/freddle/icons/nightmare-mangle.webp`,
@@ -942,7 +942,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: ['White', 'Pink'],
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF4 (HE)',
+		debut: 'FNaF4 (HE)',
 	},
 	Nightmarionne: {
 		src: `${base}/freddle/icons/nightmarionne.webp`,
@@ -951,7 +951,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Black', 'White'],
 		eyeColor: ['Black', 'White'],
-		firstAppearance: 'FNaF4 (HE)',
+		debut: 'FNaF4 (HE)',
 	},
 	'Nightmarionne S.T.A.F.F. Bot': {
 		src: `${base}/freddle/icons/nightmarionne-staff-bot.webp`,
@@ -959,7 +959,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['White', 'Black'],
 		eyeColor: 'White',
-		firstAppearance: 'FNaF4 (HE)',
+		debut: 'FNaF4 (HE)',
 	},
 	'No. 1 Crate': {
 		src: `${base}/freddle/icons/no-1-crate.webp`,
@@ -968,7 +968,7 @@ export const answers = {
 		model: 'Crate',
 		mainColors: ['Blue', 'Red'],
 		eyeColor: 'Black',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Old Man Consequences': {
 		src: `${base}/freddle/icons/omc.webp`,
@@ -977,7 +977,7 @@ export const answers = {
 		model: 'Alligator',
 		mainColors: 'Red',
 		eyeColor: 'N/A',
-		firstAppearance: 'FW',
+		debut: 'FW',
 	},
 	'Orville Elephant': {
 		src: `${base}/freddle/icons/orville-elephant.webp`,
@@ -985,7 +985,7 @@ export const answers = {
 		model: 'Elephant',
 		mainColors: 'Orange',
 		eyeColor: 'Blue',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Pan Stan': {
 		src: `${base}/freddle/icons/pan-stan.webp`,
@@ -994,7 +994,7 @@ export const answers = {
 		model: 'Pan',
 		mainColors: ['Gray', 'Brown'],
 		eyeColor: 'Black',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Party Freddy': {
 		src: `${base}/freddle/icons/party-freddy.webp`,
@@ -1002,7 +1002,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: ['Black', 'Red'],
 		eyeColor: 'Black',
-		firstAppearance: 'FNaF: HW',
+		debut: 'FNaF: HW',
 	},
 	'Phantom Balloon Boy': {
 		src: `${base}/freddle/icons/phantom-bb.webp`,
@@ -1011,7 +1011,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: 'Green',
 		eyeColor: ['Black', 'White'],
-		firstAppearance: 'FNaF3',
+		debut: 'FNaF3',
 	},
 	'Phantom Chica': {
 		src: `${base}/freddle/icons/phantom-chica.webp`,
@@ -1019,7 +1019,7 @@ export const answers = {
 		model: 'Chicken',
 		mainColors: 'Green',
 		eyeColor: ['Black', 'White'],
-		firstAppearance: 'FNaF3',
+		debut: 'FNaF3',
 	},
 	'Phantom Foxy': {
 		src: `${base}/freddle/icons/phantom-foxy.webp`,
@@ -1027,7 +1027,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: 'Green',
 		eyeColor: ['Black', 'White'],
-		firstAppearance: 'FNaF3',
+		debut: 'FNaF3',
 	},
 	'Phantom Freddy': {
 		src: `${base}/freddle/icons/phantom-freddy.webp`,
@@ -1035,7 +1035,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Green',
 		eyeColor: ['Black', 'White'],
-		firstAppearance: 'FNaF3',
+		debut: 'FNaF3',
 	},
 	'Phantom Mangle': {
 		src: `${base}/freddle/icons/phantom-mangle.webp`,
@@ -1043,7 +1043,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: 'Green',
 		eyeColor: ['Black', 'White'],
-		firstAppearance: 'FNaF3',
+		debut: 'FNaF3',
 	},
 	'Phantom Puppet': {
 		src: `${base}/freddle/icons/phantom-puppet.webp`,
@@ -1052,7 +1052,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: 'Green',
 		eyeColor: ['Black', 'White'],
-		firstAppearance: 'FNaF3',
+		debut: 'FNaF3',
 	},
 	Pigpatch: {
 		src: `${base}/freddle/icons/pigpatch.webp`,
@@ -1060,7 +1060,7 @@ export const answers = {
 		model: 'Pig',
 		mainColors: 'Pink',
 		eyeColor: ['Green', 'Blue'],
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Piranha Plushtrap': {
 		src: `${base}/freddle/icons/piranha-plushtrap.webp`,
@@ -1068,7 +1068,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Gray',
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	Plushtrap: {
 		src: `${base}/freddle/icons/plushtrap.webp`,
@@ -1076,7 +1076,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: ['Green', 'Brown'],
 		eyeColor: 'Black',
-		firstAppearance: 'FNaF4',
+		debut: 'FNaF4',
 	},
 	'Prize King': {
 		src: `${base}/freddle/icons/prize-king.webp`,
@@ -1084,7 +1084,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Yellow'],
 		eyeColor: 'Green',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'The Puppet': {
 		src: `${base}/freddle/icons/puppet.webp`,
@@ -1093,7 +1093,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Black', 'White'],
 		eyeColor: ['Black', 'White'],
-		firstAppearance: 'FNaF2',
+		debut: 'FNaF2',
 	},
 	'Radioactive Foxy': {
 		src: `${base}/freddle/icons/radioactive-foxy.webp`,
@@ -1101,7 +1101,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: 'Green',
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	Ralpho: {
 		src: `${base}/freddle/icons/ralpho.webp`,
@@ -1109,7 +1109,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Orange',
 		eyeColor: 'Blue',
-		firstAppearance: 'FF5',
+		debut: 'FF5',
 	},
 	'Ringmaster Foxy': {
 		src: `${base}/freddle/icons/ringmaster-foxy.webp`,
@@ -1117,7 +1117,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: ['White', 'Red'],
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Rockstar Bonnie': {
 		src: `${base}/freddle/icons/rockstar-bonnie.webp`,
@@ -1125,7 +1125,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Blue',
 		eyeColor: 'Green',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Rockstar Chica': {
 		src: `${base}/freddle/icons/rockstar-chica.webp`,
@@ -1133,7 +1133,7 @@ export const answers = {
 		model: 'Chicken',
 		mainColors: 'Yellow',
 		eyeColor: 'Pink',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Rockstar Foxy': {
 		src: `${base}/freddle/icons/rockstar-foxy.webp`,
@@ -1141,7 +1141,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: 'Red',
 		eyeColor: 'Orange',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Rockstar Freddy': {
 		src: `${base}/freddle/icons/rockstar-freddy.webp`,
@@ -1149,7 +1149,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Brown',
 		eyeColor: 'Blue',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Roxanne Wolf': {
 		src: `${base}/freddle/icons/roxy.webp`,
@@ -1158,7 +1158,7 @@ export const answers = {
 		model: 'Canine',
 		mainColors: ['Gray', 'Purple'],
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF: SB',
+		debut: 'FNaF: SB',
 	},
 	RWQFSFASXC: {
 		src: `${base}/freddle/icons/rwqfsfasxc.webp`,
@@ -1167,7 +1167,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Black',
 		eyeColor: 'White',
-		firstAppearance: 'FNaF2',
+		debut: 'FNaF2',
 	},
 	'Scorching Chica': {
 		src: `${base}/freddle/icons/scorching-chica.webp`,
@@ -1175,7 +1175,7 @@ export const answers = {
 		model: 'Chicken',
 		mainColors: ['Black', 'Red'],
 		eyeColor: 'Orange',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Scrap Baby': {
 		src: `${base}/freddle/icons/scrap-baby.webp`,
@@ -1183,7 +1183,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Orange', 'White'],
 		eyeColor: 'Green',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	Scraptrap: {
 		src: `${base}/freddle/icons/scraptrap.webp`,
@@ -1192,7 +1192,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Green',
 		eyeColor: 'Gray',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Security Puppet': {
 		src: `${base}/freddle/icons/security-puppet.webp`,
@@ -1200,7 +1200,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Black', 'White'],
 		eyeColor: 'Yellow',
-		firstAppearance: 'FFPS',
+		debut: 'FFPS',
 	},
 	'Serpent Mangle': {
 		src: `${base}/freddle/icons/serpent-mangle.webp`,
@@ -1208,7 +1208,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: ['Green', 'Yellow', 'Red'],
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Shadow Freddy': {
 		src: `${base}/freddle/icons/shadow-freddy.webp`,
@@ -1216,7 +1216,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Purple',
 		eyeColor: 'White',
-		firstAppearance: 'FNaF2',
+		debut: 'FNaF2',
 	},
 	'Shadow Mangle': {
 		src: `${base}/freddle/icons/shadow-mangle.webp`,
@@ -1224,7 +1224,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: 'Black',
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF: HW',
+		debut: 'FNaF: HW',
 	},
 	'Shamrock Freddy': {
 		src: `${base}/freddle/icons/shamrock-freddy.webp`,
@@ -1232,7 +1232,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Green',
 		eyeColor: 'Green',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Spring Bonnie': {
 		src: `${base}/freddle/icons/spring-bonnie.webp`,
@@ -1240,7 +1240,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Yellow',
 		eyeColor: 'Green',
-		firstAppearance: 'FNaF3',
+		debut: 'FNaF3',
 	},
 	Springtrap: {
 		src: `${base}/freddle/icons/springtrap.webp`,
@@ -1249,7 +1249,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Green',
 		eyeColor: 'Gray',
-		firstAppearance: 'FNaF3',
+		debut: 'FNaF3',
 	},
 	Stanley: {
 		src: `${base}/freddle/icons/stanley.webp`,
@@ -1257,7 +1257,7 @@ export const answers = {
 		model: 'Other',
 		mainColors: 'White',
 		eyeColor: 'Purple',
-		firstAppearance: 'TSE',
+		debut: 'TSE',
 	},
 	'The Stitchwraith': {
 		src: `${base}/freddle/icons/stitchwraith.webp`,
@@ -1265,7 +1265,7 @@ export const answers = {
 		model: 'Endoskeleton',
 		mainColors: ['Black', 'White'],
 		eyeColor: ['Black', 'White'],
-		firstAppearance: 'FF1',
+		debut: 'FF1',
 	},
 	Sun: {
 		src: `${base}/freddle/icons/sun.webp`,
@@ -1274,7 +1274,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: 'Yellow',
 		eyeColor: 'White',
-		firstAppearance: 'FNaF: SB',
+		debut: 'FNaF: SB',
 	},
 	'Sunken Toy Bonnie': {
 		src: `${base}/freddle/icons/sunken-toy-bonnie.webp`,
@@ -1282,7 +1282,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: ['Brown', 'Green'],
 		eyeColor: ['Blue', 'Purple'],
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Swamp Balloon Boy': {
 		src: `${base}/freddle/icons/swamp-bb.webp`,
@@ -1291,7 +1291,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: ['Brown', 'Green', 'Gray'],
 		eyeColor: 'N/A',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'System Error Toy Bonnie': {
 		src: `${base}/freddle/icons/system-error-toy-bonnie.webp`,
@@ -1299,7 +1299,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Red',
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Tag-Along Freddy': {
 		src: `${base}/freddle/icons/tag-along-freddy.webp`,
@@ -1307,7 +1307,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Brown',
 		eyeColor: 'Blue',
-		firstAppearance: 'FF7',
+		debut: 'FF7',
 	},
 	Tangle: {
 		src: `${base}/freddle/icons/tangle.webp`,
@@ -1316,7 +1316,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Gray',
 		eyeColor: 'Red',
-		firstAppearance: 'FNaF: SB',
+		debut: 'FNaF: SB',
 	},
 	'The Curse': {
 		src: `${base}/freddle/icons/the-curse.webp`,
@@ -1324,7 +1324,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: ['Blue', 'Yellow', 'Green'],
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'The Entity': {
 		src: `${base}/freddle/icons/mxes.webp`,
@@ -1333,7 +1333,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: ['Black', 'White'],
 		eyeColor: 'White',
-		firstAppearance: 'FNaF: SB (RUIN)',
+		debut: 'FNaF: SB (RUIN)',
 	},
 	'The Mimic': {
 		src: `${base}/freddle/icons/mimic.webp`,
@@ -1341,7 +1341,7 @@ export const answers = {
 		model: 'Endoskeleton',
 		mainColors: 'Gray',
 		eyeColor: 'Orange',
-		firstAppearance: 'TftP1',
+		debut: 'TftP1',
 	},
 	Theodore: {
 		src: `${base}/freddle/icons/theodore.webp`,
@@ -1349,7 +1349,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Purple',
 		eyeColor: 'Blue',
-		firstAppearance: 'TSE',
+		debut: 'TSE',
 	},
 	'Toy Bonnie': {
 		src: `${base}/freddle/icons/toy-bonnie.webp`,
@@ -1357,7 +1357,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Blue',
 		eyeColor: 'Green',
-		firstAppearance: 'FNaF2',
+		debut: 'FNaF2',
 	},
 	'Toy Chica': {
 		src: `${base}/freddle/icons/toy-chica.webp`,
@@ -1365,7 +1365,7 @@ export const answers = {
 		model: 'Chicken',
 		mainColors: 'Yellow',
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF2',
+		debut: 'FNaF2',
 	},
 	'Toy Freddy': {
 		src: `${base}/freddle/icons/toy-freddy.webp`,
@@ -1373,7 +1373,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Brown',
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF2',
+		debut: 'FNaF2',
 	},
 	'Toxic Springtrap': {
 		src: `${base}/freddle/icons/toxic-springtrap.webp`,
@@ -1381,7 +1381,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Purple',
 		eyeColor: ['Black', 'White'],
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Twisted Bonnie': {
 		src: `${base}/freddle/icons/twisted-bonnie.webp`,
@@ -1389,7 +1389,7 @@ export const answers = {
 		model: 'Rabbit',
 		mainColors: 'Purple',
 		eyeColor: 'Pink',
-		firstAppearance: 'TTO',
+		debut: 'TTO',
 	},
 	'Twisted Chica': {
 		src: `${base}/freddle/icons/twisted-chica.webp`,
@@ -1397,7 +1397,7 @@ export const answers = {
 		model: 'Chicken',
 		mainColors: 'Yellow',
 		eyeColor: 'Pink',
-		firstAppearance: 'TTO',
+		debut: 'TTO',
 	},
 	'Twisted Foxy': {
 		src: `${base}/freddle/icons/twisted-foxy.webp`,
@@ -1405,7 +1405,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: 'Red',
 		eyeColor: 'Red',
-		firstAppearance: 'TTO',
+		debut: 'TTO',
 	},
 	'Twisted Freddy': {
 		src: `${base}/freddle/icons/twisted-freddy.webp`,
@@ -1413,7 +1413,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Brown',
 		eyeColor: 'Blue',
-		firstAppearance: 'TTO',
+		debut: 'TTO',
 	},
 	'Twisted Wolf': {
 		src: `${base}/freddle/icons/twisted-wolf.webp`,
@@ -1421,7 +1421,7 @@ export const answers = {
 		model: 'Canine',
 		mainColors: 'Gray',
 		eyeColor: 'Blue',
-		firstAppearance: 'TTO',
+		debut: 'TTO',
 	},
 	'VR Toy Freddy': {
 		src: `${base}/freddle/icons/vr-toy-freddy.webp`,
@@ -1429,7 +1429,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: ['Purple', 'Black'],
 		eyeColor: 'Green',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	'Withered Bonnie': {
 		src: `${base}/freddle/icons/withered-bonnie.webp`,
@@ -1437,7 +1437,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Brown',
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF2',
+		debut: 'FNaF2',
 	},
 	'Withered Chica': {
 		src: `${base}/freddle/icons/withered-chica.webp`,
@@ -1445,7 +1445,7 @@ export const answers = {
 		model: 'Chicken',
 		mainColors: 'Yellow',
 		eyeColor: 'Purple',
-		firstAppearance: 'FNaF2',
+		debut: 'FNaF2',
 	},
 	'Withered Foxy': {
 		src: `${base}/freddle/icons/withered-foxy.webp`,
@@ -1453,7 +1453,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: 'Red',
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF2',
+		debut: 'FNaF2',
 	},
 	'Withered Freddy': {
 		src: `${base}/freddle/icons/withered-freddy.webp`,
@@ -1461,7 +1461,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Brown',
 		eyeColor: 'Blue',
-		firstAppearance: 'FNaF2',
+		debut: 'FNaF2',
 	},
 	'Withered Golden Freddy': {
 		src: `${base}/freddle/icons/withered-golden-freddy.webp`,
@@ -1469,7 +1469,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: 'Yellow',
 		eyeColor: 'N/A',
-		firstAppearance: 'FNaF2',
+		debut: 'FNaF2',
 	},
 	'Woodland Toy Freddy': {
 		src: `${base}/freddle/icons/woodland-toy-freddy.webp`,
@@ -1477,7 +1477,7 @@ export const answers = {
 		model: 'Bear',
 		mainColors: ['Brown', 'Green'],
 		eyeColor: 'Brown',
-		firstAppearance: 'FNaF: SD',
+		debut: 'FNaF: SD',
 	},
 	XOR: {
 		src: `${base}/freddle/icons/xor.webp`,
@@ -1486,7 +1486,7 @@ export const answers = {
 		model: 'Humanoid',
 		mainColors: 'Gray',
 		eyeColor: 'N/A',
-		firstAppearance: 'UCN',
+		debut: 'UCN',
 	},
 	'Yarg Foxy': {
 		src: `${base}/freddle/icons/yarg-foxy.webp`,
@@ -1494,7 +1494,7 @@ export const answers = {
 		model: 'Fox',
 		mainColors: 'Red',
 		eyeColor: 'Yellow',
-		firstAppearance: 'FF2',
+		debut: 'FF2',
 	},
 	Yenndo: {
 		src: `${base}/freddle/icons/yenndo.webp`,
@@ -1502,6 +1502,6 @@ export const answers = {
 		model: 'Endoskeleton',
 		mainColors: ['Gray', 'Black'],
 		eyeColor: 'Yellow',
-		firstAppearance: 'FNaF: SL',
+		debut: 'FNaF: SL',
 	},
 } as const;

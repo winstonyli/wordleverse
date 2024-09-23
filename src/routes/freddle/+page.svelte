@@ -8,9 +8,9 @@
 		Object.entries(freddle.answers).filter(
 			([k, v]) =>
 				// Exclude book, VR, and AR characters.
-				(!['TSE', 'TTO', 'TFC', 'FNaF: HW', 'FNaF: SD'].includes(v.firstAppearance) &&
-					!v.firstAppearance.startsWith('FF') &&
-					!v.firstAppearance.startsWith('TftP')) ||
+				(!['TSE', 'TTO', 'TFC', 'FNaF: HW', 'FNaF: SD'].includes(v.debut) &&
+					!v.debut.startsWith('FF') &&
+					!v.debut.startsWith('TftP')) ||
 				// Include exceptions.
 				['Glitchtrap', 'Nightmare Endo'].includes(k),
 		),

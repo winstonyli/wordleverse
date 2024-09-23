@@ -223,7 +223,7 @@
 		on:input={updateSuggestions}
 		on:submit={onSubmit}
 		autocomplete="off"
-		class="swap-off flex items-center gap-6"
+		class="swap-off flex flex-col items-center gap-3 lg:flex-row lg:gap-6"
 		class:pointer-events-none={hasWon}
 	>
 		<div class="relative">
@@ -299,9 +299,10 @@
 </div>
 
 <!-- Display guesses here. -->
+<!-- For some reason, needs `max-w-*` for scrollbar to appear. Investigate more later. -->
 <div
-	class="grid max-w-[100vw] place-items-stretch gap-3 overflow-x-auto text-center align-middle"
-	style:grid-template-columns="repeat({props.length + 1}, 8rem)"
+	class="grid max-w-[100vw] place-items-stretch gap-3 overflow-x-auto px-3 text-center align-middle"
+	style:grid-template-columns="repeat({props.length + 1}, 6rem)"
 >
 	<!-- Headers -->
 	<div
@@ -322,7 +323,7 @@
 			style:grid-column="span {props.length + 1} / span {props.length + 1}"
 		>
 			<!-- Icons -->
-			<img in:fade src={answers[guess].src} alt={guess} class="size-32 object-cover drop-shadow" />
+			<img in:fade src={answers[guess].src} alt={guess} class="size-24 object-cover drop-shadow" />
 
 			<!-- Properties -->
 			{#each props as prop, i (prop)}
@@ -341,9 +342,9 @@
 
 					<!-- Higher or lower? -->
 					{#if cmp > 0}
-						<IconHigher class="absolute size-24 opacity-50 dark:opacity-25" />
+						<IconHigher class="absolute size-20 opacity-50 dark:opacity-25" />
 					{:else if cmp < 0}
-						<IconLower class="absolute size-24 opacity-50 dark:opacity-25" />
+						<IconLower class="absolute size-20 opacity-50 dark:opacity-25" />
 					{/if}
 				</div>
 			{/each}
