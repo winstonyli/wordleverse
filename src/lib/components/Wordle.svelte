@@ -301,22 +301,22 @@
 <!-- Display guesses here. -->
 <!-- For some reason, `max-w-*` is needed for horizontal scrollbar. Investigate later. -->
 <div
-	class="flex max-w-[100vw] gap-3 overflow-x-auto px-3 text-center align-middle"
+	class="flex max-w-[100vw] flex-col gap-3 overflow-x-auto px-3 text-center align-middle"
 	style:grid-template-columns="repeat({props.length + 1}, 6rem)"
 >
 	<!-- Headers -->
-	<div class="flex gap-3">
+	<div class="flex gap-3 *:w-24 *:flex-none">
 		{#each [category, ...props] as prop}
-			<p class="w-24 border-b-[1px] border-accent capitalize">
+			<p class="border-b-[1px] border-accent">
 				{capitalCase(prop.toString())}
 			</p>
 		{/each}
 	</div>
 
 	{#each guesses as guess (guess)}
-		<div animate:flip={{ duration: 500 }} class="flex gap-3">
+		<div animate:flip={{ duration: 500 }} class="flex gap-3 *:size-24 *:flex-none">
 			<!-- Icons -->
-			<img in:fade src={answers[guess].src} alt={guess} class="size-24 object-cover drop-shadow" />
+			<img in:fade src={answers[guess].src} alt={guess} class="object-cover drop-shadow" />
 
 			<!-- Properties -->
 			{#each props as prop, i (prop)}
@@ -326,7 +326,7 @@
 				<div
 					in:fade|global={{ delay: i * 500 }}
 					on:introend={() => onIntroEnd(guess, i)}
-					class="grid size-24 place-items-center rounded p-3 shadow clue-{clue}"
+					class="grid place-items-center rounded p-3 shadow clue-{clue}"
 				>
 					<!-- Display property here. -->
 					{answers[guess][prop] instanceof Array
