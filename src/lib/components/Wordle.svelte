@@ -299,14 +299,15 @@
 </div>
 
 <!-- Display guesses here. -->
+<!-- For some reason, `max-w-*` is needed for horizontal scrollbar. Investigate later. -->
 <div
-	class="flex gap-3 overflow-x-auto text-center align-middle"
+	class="flex max-w-[100vw] gap-3 overflow-x-auto px-3 text-center align-middle"
 	style:grid-template-columns="repeat({props.length + 1}, 6rem)"
 >
 	<!-- Headers -->
 	<div class="flex gap-3">
 		{#each [category, ...props] as prop}
-			<p class="border-b-[1px] border-accent capitalize">
+			<p class="w-24 border-b-[1px] border-accent capitalize">
 				{capitalCase(prop.toString())}
 			</p>
 		{/each}
