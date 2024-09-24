@@ -299,7 +299,6 @@
 </div>
 
 <!-- Display guesses here. -->
-<!-- For some reason, `max-w-*` is needed for horizontal scrollbar. Investigate later. -->
 <div
 	class="flex max-w-[100vw] flex-col gap-3 overflow-x-auto px-3 text-center align-middle"
 	style:grid-template-columns="repeat({props.length + 1}, 6rem)"
@@ -322,22 +321,28 @@
 			{#each props as prop, i (prop)}
 				{@const cmp = compare(answers[aotd][prop], answers[guess][prop])}
 				{@const clue = checkProperty(answers[guess], prop)}
-
-				<div
-					in:fade|global={{ delay: i * 500 }}
-					on:introend={() => onIntroEnd(guess, i)}
-					class="grid place-items-center rounded p-3 shadow clue-{clue}"
-				>
-					<!-- Display property here. -->
-					{answers[guess][prop] instanceof Array
+				{@const desc =
+					answers[guess][prop] instanceof Array
 						? answers[guess][prop].join(', ')
 						: answers[guess][prop]}
 
+				<!-- TODO: only show tooltip when overflowing -->
+				<div
+					in:fade|global={{ delay: i * 500 }}
+					on:introend={() => onIntroEnd(guess, i)}
+					class="tooltip grid place-items-center rounded p-3 shadow clue-{clue} *:[grid-area:1/1]"
+					data-tip={desc}
+				>
+					<!-- Display property here. -->
+					<p class="text-ellipsis">
+						{desc}
+					</p>
+
 					<!-- Higher or lower? -->
 					{#if cmp > 0}
-						<IconHigher class="absolute size-20 opacity-50 dark:opacity-25" />
+						<IconHigher class="size-5/6 opacity-50 dark:opacity-25" />
 					{:else if cmp < 0}
-						<IconLower class="absolute size-20 opacity-50 dark:opacity-25" />
+						<IconLower class="size-5/6 opacity-50 dark:opacity-25" />
 					{/if}
 				</div>
 			{/each}
