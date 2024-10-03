@@ -1,5 +1,6 @@
 <script lang="ts">
 	import 'tailwindcss/tailwind.css';
+	import '@fontsource/nunito';
 
 	import { base } from '$app/paths';
 
