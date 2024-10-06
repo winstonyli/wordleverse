@@ -170,7 +170,7 @@
 				? (s as any).toFullString()
 				: s.toString();
 
-		return prop instanceof Array ? prop.map((a) => toString(a)).join(', ') : toString(prop);
+		return prop instanceof Array ? prop.map(toString).join(', ') : toString(prop);
 	}
 
 	///////////////////////////////////
@@ -352,9 +352,9 @@
 					</svelte:element>
 
 					<!-- Higher or lower? -->
-					{#if +answers[guess][prop] > +answers[aotd][prop]}
+					{#if +answers[aotd][prop] > +answers[guess][prop]}
 						<IconHigher class="size-5/6 opacity-40 dark:opacity-20" />
-					{:else if +answers[guess][prop] < +answers[aotd][prop]}
+					{:else if +answers[aotd][prop] < +answers[guess][prop]}
 						<IconLower class="size-5/6 opacity-40 dark:opacity-20" />
 					{/if}
 				</div>

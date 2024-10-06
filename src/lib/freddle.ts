@@ -69,11 +69,11 @@ const hw2 = prop('FNaF: HW2', {
 	full: "Five Nights at Freddy's: Help Wanted 2",
 	value: new Date('December 14, 2023'),
 });
-// const itp = clue('FNaF: ItP', {
+// const itp = prop('FNaF: ItP', {
 // 	full: "Five Nights at Freddy's: Into the Pit",
 // 	value: new Date('August 7, 2024'),
 // });
-// const sotm = clue('FNaF: SotM', {
+// const sotm = prop('FNaF: SotM', {
 // 	full: "Five Nights at Freddy's: Secret of the Mimic",
 // 	value: new Date('2025'),
 // });
@@ -86,10 +86,11 @@ const tto = prop('TTO', {
 	full: "Five Nights at Freddy's: The Twisted Ones",
 	value: new Date('June 27, 2017'),
 });
-// const tfc = clue('TFC', {
-// 	full: "Five Nights at Freddy's: The Fourth Closet",
-// 	value: new Date('June 26, 2018'),
-// });
+const tfc = prop('TFC', {
+	full: "Five Nights at Freddy's: The Fourth Closet",
+	value: new Date('June 26, 2018'),
+});
+const trilogy = [tse, tto, tfc];
 
 const ff1 = prop('FF1', {
 	full: 'Fazbear Frights #1',
@@ -99,22 +100,22 @@ const ff2 = prop('FF2', {
 	full: 'Fazbear Frights #2',
 	value: new Date('March 3, 2020'),
 });
-// const ff3 = clue('FF3', {
-// 	full: 'Fazbear Frights #3',
-// 	value: new Date('May 5, 2020'),
-// });
-// const ff4 = clue('FF4', {
-// 	full: 'Fazbear Frights #4',
-// 	value: new Date('July 7, 2020'),
-// });
+const ff3 = prop('FF3', {
+	full: 'Fazbear Frights #3',
+	value: new Date('May 5, 2020'),
+});
+const ff4 = prop('FF4', {
+	full: 'Fazbear Frights #4',
+	value: new Date('July 7, 2020'),
+});
 const ff5 = prop('FF5', {
 	full: 'Fazbear Frights #5',
 	value: new Date('September 1, 2020'),
 });
-// const ff6 = clue('FF6', {
-// 	full: 'Fazbear Frights #6',
-// 	value: new Date('December 29, 2020'),
-// });
+const ff6 = prop('FF6', {
+	full: 'Fazbear Frights #6',
+	value: new Date('December 29, 2020'),
+});
 const ff7 = prop('FF7', {
 	full: 'Fazbear Frights #7',
 	value: new Date('March 2, 2021'),
@@ -127,51 +128,53 @@ const ff9 = prop('FF9', {
 	full: 'Fazbear Frights #9',
 	value: new Date('July 6, 2021'),
 });
-// const ff10 = clue('FF10', {
-// 	full: 'Fazbear Frights #10',
-// 	value: new Date('September 7, 2021'),
-// });
-// const ff11 = clue('FF11', {
-// 	full: 'Fazbear Frights #11',
-// 	value: new Date('November 2, 2021'),
-// });
-// const ff12 = clue('FF12', {
-// 	full: 'Fazbear Frights #12',
-// 	value: new Date('April 19, 2022'),
-// });
+const ff10 = prop('FF10', {
+	full: 'Fazbear Frights #10',
+	value: new Date('September 7, 2021'),
+});
+const ff11 = prop('FF11', {
+	full: 'Fazbear Frights #11',
+	value: new Date('November 2, 2021'),
+});
+const ff12 = prop('FF12', {
+	full: 'Fazbear Frights #12',
+	value: new Date('April 19, 2022'),
+});
+const frights = [ff1, ff2, ff3, ff4, ff5, ff6, ff7, ff8, ff9, ff10, ff11, ff12];
 
 const tftp1 = prop('TftP1', {
 	full: 'Tales from the Pizzaplex #1',
 	value: new Date('July 19, 2022'),
 });
-// const tftp2 = clue('TftP2', {
-// 	full: 'Tales from the Pizzaplex #2',
-// 	value: new Date('September 20, 2022'),
-// });
-// const tftp3 = clue('TftP3', {
-// 	full: 'Tales from the Pizzaplex #3',
-// 	value: new Date('December 6, 2022'),
-// });
-// const tftp4 = clue('TftP4', {
-// 	full: 'Tales from the Pizzaplex #4',
-// 	value: new Date('December 27, 2022'),
-// });
-// const tftp5 = clue('TftP5', {
-// 	full: 'Tales from the Pizzaplex #5',
-// 	value: new Date('March 7, 2023'),
-// });
-// const tftp6 = clue('TftP6', {
-// 	full: 'Tales from the Pizzaplex #6',
-// 	value: new Date('May 2, 2023'),
-// });
-// const tftp7 = clue('TftP7', {
-// 	full: 'Tales from the Pizzaplex #7',
-// 	value: new Date('July 18, 2023'),
-// });
-// const tftp8 = clue('TftP8', {
-// 	full: 'Tales from the Pizzaplex #8',
-// 	value: new Date('October 3, 2023'),
-// });
+const tftp2 = prop('TftP2', {
+	full: 'Tales from the Pizzaplex #2',
+	value: new Date('September 20, 2022'),
+});
+const tftp3 = prop('TftP3', {
+	full: 'Tales from the Pizzaplex #3',
+	value: new Date('December 6, 2022'),
+});
+const tftp4 = prop('TftP4', {
+	full: 'Tales from the Pizzaplex #4',
+	value: new Date('December 27, 2022'),
+});
+const tftp5 = prop('TftP5', {
+	full: 'Tales from the Pizzaplex #5',
+	value: new Date('March 7, 2023'),
+});
+const tftp6 = prop('TftP6', {
+	full: 'Tales from the Pizzaplex #6',
+	value: new Date('May 2, 2023'),
+});
+const tftp7 = prop('TftP7', {
+	full: 'Tales from the Pizzaplex #7',
+	value: new Date('July 18, 2023'),
+});
+const tftp8 = prop('TftP8', {
+	full: 'Tales from the Pizzaplex #8',
+	value: new Date('October 3, 2023'),
+});
+const tales = [tftp1, tftp2, tftp3, tftp4, tftp5, tftp6, tftp7, tftp8];
 
 const hard = {
 	'8-Bit Baby': {
@@ -748,7 +751,7 @@ const hard = {
 		src: `${base}/freddle/icons/helpi.webp`,
 		pronouns: 'He/Him',
 		model: 'Bear',
-		mairColor: ['Purple', 'Blue'],
+		mainColors: ['Purple', 'Blue'],
 		eyeColor: 'Blue',
 		debut: ruin,
 	},
@@ -756,7 +759,7 @@ const hard = {
 		src: `${base}/freddle/icons/helpy.webp`,
 		pronouns: 'He/Him',
 		model: 'Bear',
-		mairColor: ['White', 'Purple'],
+		mainColors: ['White', 'Purple'],
 		eyeColor: 'Blue',
 		debut: ffps,
 	},
@@ -1633,12 +1636,12 @@ const hard = {
 
 const normal = Object.fromEntries(
 	Object.entries(hard).filter(([k, v]) => {
-		const debut = v.debut.toString();
 		return (
 			// Exclude book, VR, and AR characters.
-			(![tse, tto, 'TFC', hw, sd].includes(v.debut) &&
-				!debut.startsWith('FF') &&
-				!debut.startsWith('TftP')) ||
+			(![hw, sd].includes(v.debut) &&
+				!trilogy.includes(v.debut) &&
+				!frights.includes(v.debut) &&
+				!tales.includes(v.debut)) ||
 			// Include exceptions.
 			['Glitchtrap', 'Nightmare Endo'].includes(k)
 		);
