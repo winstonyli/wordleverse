@@ -15,7 +15,7 @@
 <!-- Fullscreen background -->
 <div
 	class="min-h-screen w-screen bg-cover bg-fixed bg-center"
-	style:background-image="url('{$page.route.id}/background.jpg')"
+	style:background-image="url('{base}/{$page.route.id}/background.jpg')"
 >
 	<!-- Fullscreen backdrop blur -->
 	<div class="flex min-h-screen w-screen justify-center backdrop-blur">
