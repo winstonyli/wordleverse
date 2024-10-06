@@ -6,7 +6,7 @@
 	import { capitalCase, noCase } from 'change-case';
 	import Fuse from 'fuse.js';
 	import prand from 'pure-rand';
-	import { browser } from '$app/environment';
+	import type { Prop, Props, Set } from '$lib/wordle';
 
 	import { Confetti } from 'svelte-confetti';
 	import Countdown from '$lib/components/Countdown.svelte';
@@ -14,14 +14,17 @@
 	import IconSubmit from '~icons/line-md/arrow-right';
 	import IconHigher from '~icons/line-md/arrow-up';
 	import IconLower from '~icons/line-md/arrow-down';
-
-	type Prop = string | number | readonly string[] | readonly number[];
-	type Props = { src: string; aliases?: readonly string[] } & Record<string, Prop>;
+	import IconInfo from '~icons/line-md/alert-circle';
 
 	export let category: string;
-	export let values: Record<string, { valueOf(): number }> = {};
-	export let answers: Record<string, Props>;
+	export let info: string;
+	export let sets: Record<string, Set>;
 
+	let modal: HTMLDialogElement;
+
+	let currentSet = 'normal';
+
+	$: answers = sets[currentSet];
 	$: props = Object.keys(Object.values(answers)[0]).filter((k) => !['src', 'aliases'].includes(k));
 
 	///////////
@@ -48,7 +51,7 @@
 	// Get answer of the day.
 	let seed = +today;
 	$: rng = prand.xoroshiro128plus(seed);
-	$: [answerIndex, _] = prand.uniformIntDistribution(0, Object.keys(answers).length - 1, rng); // value in {1..6}, here: 2
+	$: [answerIndex, _] = prand.uniformIntDistribution(0, Object.keys(answers).length - 1, rng);
 	$: aotd = Object.keys(answers)[answerIndex];
 
 	//////////////////
@@ -161,17 +164,13 @@
 		return clue === guess[field] ? 'correct' : 'incorrect';
 	}
 
-	/** Get numeric value of prop. */
-	function valueOf(x: Prop): number {
-		if (typeof x === 'string' && x in values) return +values[x];
-		if ('valueOf' in Object.getPrototypeOf(x)) return +(x as any);
-		return NaN;
-	}
+	function getDesc(prop: Prop, full = false): string {
+		const toString = (s: any) =>
+			full && typeof s === 'object' && 'toFullString' in s
+				? (s as any).toFullString()
+				: s.toString();
 
-	/** Spaceship operator for props. */
-	function compare(a: Prop, b: Prop): number {
-		// If either `a` or `b` is not numeric, `Math.sign` returns `NaN`, which is falsy.
-		return Math.sign(valueOf(a) - valueOf(b)) || 0;
+		return prop instanceof Array ? prop.map((a) => toString(a)).join(', ') : toString(prop);
 	}
 
 	///////////////////////////////////
@@ -271,8 +270,25 @@
 			</ul>
 		</div>
 
-		<!-- Additional UI may be supplied by parents here. -->
-		<slot />
+		<select bind:value={currentSet} class="select select-accent">
+			{#each Object.keys(sets) as k}
+				<option value={k}>{capitalCase(k)}</option>
+			{/each}
+		</select>
+
+		<!-- Open the modal using ID.showModal() method -->
+		<button class="btn btn-circle btn-accent" on:click={() => modal.showModal()}>
+			<IconInfo class="size-6" />
+		</button>
+		<dialog bind:this={modal} class="modal">
+			<div class="modal-box prose">
+				<h3>Additionally...</h3>
+				<p>{@html info}</p>
+			</div>
+			<form method="dialog" class="modal-backdrop">
+				<button>close</button>
+			</form>
+		</dialog>
 	</form>
 
 	<div
@@ -319,30 +335,27 @@
 
 			<!-- Properties -->
 			{#each props as prop, i (prop)}
-				{@const cmp = compare(answers[aotd][prop], answers[guess][prop])}
-				{@const clue = checkProperty(answers[guess], prop)}
-				{@const desc =
-					answers[guess][prop] instanceof Array
-						? answers[guess][prop].join(', ')
-						: answers[guess][prop]}
+				{@const abbrDesc = getDesc(answers[guess][prop])}
+				{@const fullDesc = getDesc(answers[guess][prop], true)}
 
-				<!-- TODO: only show tooltip when overflowing -->
 				<div
 					in:fade|global={{ delay: i * 500 }}
 					on:introend={() => onIntroEnd(guess, i)}
-					class="tooltip grid place-items-center rounded p-3 shadow clue-{clue} *:[grid-area:1/1]"
-					data-tip={desc}
+					class="grid place-items-center rounded p-3 shadow clue-{checkProperty(
+						answers[guess],
+						prop,
+					)} *:[grid-area:1/1]"
 				>
 					<!-- Display property here. -->
-					<p class="text-ellipsis">
-						{desc}
-					</p>
+					<svelte:element this={abbrDesc === fullDesc ? 'p' : 'abbr'} title={fullDesc}>
+						{abbrDesc}
+					</svelte:element>
 
 					<!-- Higher or lower? -->
-					{#if cmp > 0}
-						<IconHigher class="size-5/6 opacity-50 dark:opacity-25" />
-					{:else if cmp < 0}
-						<IconLower class="size-5/6 opacity-50 dark:opacity-25" />
+					{#if +answers[guess][prop] > +answers[aotd][prop]}
+						<IconHigher class="size-5/6 opacity-40 dark:opacity-20" />
+					{:else if +answers[guess][prop] < +answers[aotd][prop]}
+						<IconLower class="size-5/6 opacity-40 dark:opacity-20" />
 					{/if}
 				</div>
 			{/each}
